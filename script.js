@@ -1,7 +1,7 @@
 const singal = documnet .getElementById("message")
 const startButton = documnet .getElementById("Start Time");
 
-startButton.addEventListener("clicj", function () {
+startButton.addEventListener("click", function () {
   message.textContent = "Wait......."}
 
   setTimeout(function () {
