@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="style.css">
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-colour: lightgray:
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#signal {
+  font-size: 30px;
+}
+# startButton {
+  font-size: 24px;
+  padding: 20px 40px;
+  cursor: pointer;
+}
