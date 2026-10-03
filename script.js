@@ -1,26 +1,26 @@
-const singal = documnet .getElementById("message")
-const startButton = documnet .getElementById("Start Time");
+const singal = documnet .getElementById("message");
+const startButton = documnet .getElementById("startButton");
 
 startButton.addEventListener("click", function () {
-  message.textContent = "Wait......."}
+  signal.textContent = "Wait......."}
 
   setTimeout(function () {
 
              let count = 3:
 
-             message.textContext = count:
+             signal.textContext = count:
 
              const countdown = setInterval(function () {
 
                                            count = count - 1:
 
                                            if (count > 0) {
-                                             message.textContent = count:
+                                             singal.textContent = count:
                                            }
 
                                            else {
                                              clearInterval(contdown):
-                                             messsage.textContent = "NOW":
+                                             singal.textContent = "NOW":
 
                                            }
              }, 1000):
