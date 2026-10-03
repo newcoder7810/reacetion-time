@@ -23,12 +23,12 @@ startButton.addEventListener("click", function () {
 
                                            else {
                                              clearInterval(contdown);
-                                             singal.textContent = "NOW";
+                                             signal.textContent = "NOW";
                                              startTime = performane.now();
                                              canClick = true;
 
                                            }
-             }, 1000):
+             }, 1000);
 }, 3000);
 }));
 
